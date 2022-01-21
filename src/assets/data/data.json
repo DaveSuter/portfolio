@@ -1,0 +1,28 @@
+{
+	"header": {
+		"nombre": "David Suter",
+		"banner": "/assets/imagenes/banner.jpg",
+		"avatar": "/assets/imagenes/perfil04.jpeg",
+		"titulo": "Full Stack Developer Jr Java/Angular",
+		"lugar": "Buenos Aires, Argentina",
+		"acercade": "Decidí darle un giro a mi vida profesional comenzando a estudiar nuevamente en el rubro IT, en el cual quiero insertarme laboralmente, donde aplicar lo aprendido, comprendido en conocimientos iniciales, y aprender aún más en el mismo. También apoyando con mis capacidades creativas y resolutivas."
+	},
+	"experiencia": [{
+		"puesto": "Trabajo 1",
+		"empresa": "inventada",
+		"fechas": "04/2018 - Actualidad",
+		"descripcion": "descripcion del puesto detalles detalles detalles blabla muy bien"
+	},
+	{
+		"puesto": "Trabajo 2",
+		"empresa": "otra empresa",
+		"fechas": "06/2012 - 02/2018",
+		"descripcion": "descripcion del puesto detalles detalles detalles EXCELENNNTEEE!!!"
+	}],
+	"educacion": [{
+		"titulo": "Trabajo 1",
+		"institucion": "inventada",
+		"tipo": "universitario",
+		"fechas": "04/2018 - Actualidad"
+	}]
+}
