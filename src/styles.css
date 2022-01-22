@@ -1,1 +1,9 @@
 /* You can add global styles to this file, and also import other style files */
+
+.unaClase {color: red;}
+
+#unID {color:sandybrown;}
+
+.back-color{
+    background-color: #161309;
+}
