@@ -1,15 +1,31 @@
+.input-w{
+    width:200px;
+}
+
 .blanco{
     color: white;
 }
 
 .fondo{
     color: #ffffff;
-    background-color: #090b16;
+    background-color: #15233D;
+}
+
+.boton-edit{
+    color: #ffffff;
+    background-color: #71A3EC;
+}
+
+.boton-login{
+    background-color: white;
 }
 
 .boton{
-    color: #ffffff;
-    background-color: #052d61;
+    margin: 0px 10px 0px 0px;
+}
+
+.icono{
+    margin: 0px -12px 0px -12px;
 }
 
 .fondo2{

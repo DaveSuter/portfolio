@@ -3,7 +3,7 @@
       <h5 class="card-title">Experiencia</h5>
       <ul class="list-group list-group-flush">
         <!--tiene un *ngFor para recorrer la lista-->
-        <li class="list-group-item borde" *ngFor="let experiencia of experienciaLista">
+        <li class="list-group-item" *ngFor="let experiencia of experienciaLista">
           <p class="card-text">{{experiencia.puesto}}</p>
           <p class="card-text"><small class="text-muted">{{experiencia.empresa}}</small></p>
           <p class="card-text"><small class="text-muted">{{experiencia.fechas}}</small></p>

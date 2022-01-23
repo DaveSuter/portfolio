@@ -14,5 +14,28 @@
   <app-root></app-root>
 
   <script src="dist/bootstrap/js/bootstrap.bundle.js"></script>
+  <script>
+    let texto;
+
+    function cambiar_parrafo(){
+      document.getElementById("edit-acercade").style.display="block";
+      document.getElementById("edit-acercade-btn-acept").style.display="block";
+      document.getElementById("edit-acercade-btn-cancel").style.display="block";
+    };
+    function tomarTexto(valor){
+      texto = valor;
+    };
+    function aceptarCambios(){
+      document.getElementById("text-acercade").innerText = texto;
+      document.getElementById("edit-acercade").style.display="none";
+      document.getElementById("edit-acercade-btn-acept").style.display="none";
+      document.getElementById("edit-acercade-btn-cancel").style.display="none";
+    };
+    function cancelarCambios(){
+      document.getElementById("edit-acercade").style.display="none";
+      document.getElementById("edit-acercade-btn-acept").style.display="none";
+      document.getElementById("edit-acercade-btn-cancel").style.display="none";
+    }
+  </script>
 </body>
 </html>

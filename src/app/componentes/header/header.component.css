@@ -7,10 +7,35 @@ p{
 }
 
 div{
+    background-color: #15233D;
+}
+
+.x{
+    background-color: #27221B;
     background-color: #090b16;
 }
 
-li{
-    background-color: #CAC2A3
-    ;
+.blanco{
+    color: white;
+}
+
+.banner{
+    object-fit: cover;
+    height:460px;
+}
+
+.avatar{
+    float:left; 
+    width:180px; 
+    height:180px; 
+    position:absolute; 
+    top:350px;
+}
+
+.boton{
+    margin: 0px 10px 0px 0px;
+}
+
+.icono{
+    margin: 0px -12px 0px -12px;
 }

@@ -7,13 +7,16 @@ p{
 }
 
 div{
+    background-color: #15233D;
+}
+
+.x{
+    background-color: #27221B;
     background-color: #090b16;
+    border-color: #0c1f42;
 }
 
 li{
-    background-color: #090b16;
-}
-
-.borde{
-    border-color: #0c1f42;
+    background-color: #15233D;
+    border-color: #71A3EC;
 }
