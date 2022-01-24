@@ -1,3 +1,8 @@
+/*div{
+    color: #ffffff;
+    background-color: #71A3EC;
+}*/
+
 .input-w{
     width:200px;
 }
@@ -6,7 +11,7 @@
     color: white;
 }
 
-.fondo{
+nav{
     color: #ffffff;
     background-color: #15233D;
 }
@@ -26,10 +31,4 @@
 
 .icono{
     margin: 0px -12px 0px -12px;
-}
-
-.fondo2{
-    color: #0768c4;
-    background-color: #052d61;
-    background-color: #161309;
 }

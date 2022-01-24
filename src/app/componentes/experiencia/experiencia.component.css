@@ -1,22 +1,16 @@
-h5{
-    color: white;
-}
-
-p{
-    color: white;
+li{
+    background-color: #15233D;
+    border-color: #71A3EC;
 }
 
 div{
     background-color: #15233D;
 }
 
-.x{
-    background-color: #27221B;
-    background-color: #090b16;
-    border-color: #0c1f42;
+.blanco{
+    color: white;
 }
 
-li{
-    background-color: #15233D;
-    border-color: #71A3EC;
+.x{
+    background-color: white;
 }

@@ -7,3 +7,19 @@
 .back-color{
     background-color: #F9FFE5;
 }
+
+h5{
+    color: white;
+}
+
+p{
+    color: white;
+}
+
+.boton{
+    margin: 0px 10px 0px 0px;
+}
+
+.icono{
+    margin: 0px -12px 0px -12px;
+}

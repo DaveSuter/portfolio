@@ -1,18 +1,9 @@
-h5{
-    color: white;
-}
-
-p{
+h4{
     color: white;
 }
 
 div{
     background-color: #15233D;
-}
-
-.x{
-    background-color: #27221B;
-    background-color: #090b16;
 }
 
 .blanco{
@@ -38,4 +29,12 @@ div{
 
 .icono{
     margin: 0px -12px 0px -12px;
+}
+
+.btns-edit{
+    background-color: #71A3EC;
+}
+
+.a-c{
+    margin: 5px 0px 5px 0px;
 }
