@@ -18,6 +18,9 @@
     let texto;
 
     function cambiar_parrafo(){
+      document.getElementById("edit-nombre").style.display="block";
+      document.getElementById("edit-titulo").style.display="block";
+      document.getElementById("edit-residencia").style.display="block";
       document.getElementById("edit-acercade").style.display="block";
       document.getElementById("edit-acercade-btn-acept").style.display="block";
       document.getElementById("edit-acercade-btn-cancel").style.display="block";
@@ -26,18 +29,29 @@
       texto = valor;
     };
     function aceptarCambios(){
+      document.getElementById("text-nombre").innerText = texto;
+      document.getElementById("text-titulo").innerText = texto;
+      document.getElementById("text-residencia").innerText = texto;
       document.getElementById("text-acercade").innerText = texto;
+
+      document.getElementById("edit-nombre").style.display="none";
+      document.getElementById("edit-titulo").style.display="none";
+      document.getElementById("edit-residencia").style.display="none";
       document.getElementById("edit-acercade").style.display="none";
+
       document.getElementById("edit-acercade-btn-acept").style.display="none";
       document.getElementById("edit-acercade-btn-cancel").style.display="none";
     };
     function cancelarCambios(){
+      document.getElementById("edit-nombre").style.display="none";
+      document.getElementById("edit-titulo").style.display="none";
+      document.getElementById("edit-residencia").style.display="none";
       document.getElementById("edit-acercade").style.display="none";
       document.getElementById("edit-acercade-btn-acept").style.display="none";
       document.getElementById("edit-acercade-btn-cancel").style.display="none";
     }
   </script>
-
+<!--
   <script>
     function nuevoDiv(){
       let newDivStack = document.createElement("div");
@@ -70,6 +84,6 @@
     }
 
 
-  </script>
+  </script> -->
 </body>
 </html>

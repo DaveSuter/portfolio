@@ -10,6 +10,8 @@ import { SkillsComponent } from './componentes/skills/skills.component';
 import { ProyectosComponent } from './componentes/proyectos/proyectos.component';
 import { AppRoutingModule } from './app-routing.module.ts/app-routing.module.ts.module';
 import {HttpClientModule} from '@angular/common/http';
+import { HeaderEditComponent } from './componentes/header-edit/header-edit.component';
+import { ExperienciaEditComponent } from './componentes/experiencia-edit/experiencia-edit.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +21,9 @@ import {HttpClientModule} from '@angular/common/http';
     ExperienciaComponent,
     EducacionComponent,
     SkillsComponent,
-    ProyectosComponent
+    ProyectosComponent,
+    HeaderEditComponent,
+    ExperienciaEditComponent
   ],
   imports: [
     BrowserModule,

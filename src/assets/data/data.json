@@ -4,7 +4,7 @@
 		"banner": "/assets/imagenes/banner.jpg",
 		"avatar": "/assets/imagenes/perfil04.jpeg",
 		"titulo": "Full Stack Developer Jr Java/Angular",
-		"lugar": "Buenos Aires, Argentina",
+		"residencia": "Buenos Aires, Argentina",
 		"acercade": "Decidí darle un giro a mi vida profesional comenzando a estudiar nuevamente en el rubro IT, en el cual quiero insertarme laboralmente, donde aplicar lo aprendido, comprendido en conocimientos iniciales, y aprender aún más en el mismo. También apoyando con mis capacidades creativas y resolutivas."
 	},
 	"experiencia": [{
@@ -20,9 +20,47 @@
 		"descripcion": "descripcion del puesto detalles detalles detalles EXCELENNNTEEE!!!"
 	}],
 	"educacion": [{
-		"titulo": "Trabajo 1",
-		"institucion": "inventada",
+		"titulo": "Tec Programación",
+		"institucion": "UNLZ",
 		"tipo": "universitario",
-		"fechas": "04/2018 - Actualidad"
+		"fechas": "04/2020 - Actualidad"
+	},
+	{
+		"titulo": "Tec en Informática",
+		"institucion": "Almafuerte",
+		"tipo": "secundario",
+		"fechas": "03/2003 - 12/2011"
+	}],
+	"skills": [{
+		"skillname": "Java",
+		"percent": "85"
+	},
+	{
+		"skillname": "Capacidad de análisis",
+		"percent": "75"
+	},
+	{
+		"skillname": "Aprendisaje",
+		"percent": "65"
+	},
+	{
+		"skillname": "SQL",
+		"percent": "50"
+	},
+	{
+		"skillname": "Liderazgo",
+		"percent": "70"
+	},
+	{
+		"skillname": "Inglés",
+		"percent": "55"
+	}],
+	"projects": [{
+		"projectname": "Portfolio AP",
+		"details": "html css bootstrap js ts angular sql java springboot"
+	},
+	{
+		"projectname": "Cinema Basilio",
+		"details": "html css bootstrap php"
 	}]
 }

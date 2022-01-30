@@ -4,7 +4,7 @@
     <div class="card-body" style="margin-top:60px;">
       <div class="hstack gap-3">
         <div class="me-auto">
-          <h4 class="card-title">{{miPortfolio.header.nombre}}</h4>
+          <h4 class="card-title" id="text-nombre">{{miPortfolio.header.nombre}}</h4>
         </div>
         <div>
           <button type="button" class="btn boton" aria-label="Mute" onclick="cambiar_parrafo()">
@@ -16,13 +16,9 @@
           </button>
         </div>
       </div>
-      <p class="card-text">{{miPortfolio.header.titulo}}</p>
-      <p class="card-text"><small  class="text-muted">{{miPortfolio.header.lugar}}</small></p>
-      <p class="card-text"><small id="text-acercade" class="text-muted">{{miPortfolio.header.acercade}}</small></p>
-      <input id="edit-acercade" oninput="tomarTexto(this.value)" type="text" style="display:none" class="form-control" placeholder="{{miPortfolio.header.acercade}}" aria-label="Recipient's username with two button addons">
-      <div class="d-grid gap-2 col-2 mx-auto a-c">
-        <button class="btn btn-outline-info" type="button" onclick="aceptarCambios()" style="display:none" id="edit-acercade-btn-acept">Aceptar</button>
-        <button class="btn btn-outline-info" type="button" onclick="cancelarCambios()" style="display:none" id="edit-acercade-btn-cancel">Cancelar</button>
-      </div>
+      <p class="card-text" id="text-titulo">{{miPortfolio.header.titulo}}</p>
+      <p class="card-text" id="text-residencia"><small class="text-muted">{{miPortfolio.header.residencia}}</small></p>
+      <p class="card-text" id="text-acercade"><small class="text-muted">{{miPortfolio.header.acercade}}</small></p>
+      <app-header-edit></app-header-edit>
     </div>
 </div>
