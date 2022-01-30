@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, EventEmitter } from '@angular/core';
+import { Item } from 'src/app/Item';
 import { PortfolioService } from 'src/app/servicios/portfolio.service';
 
 @Component({
@@ -14,6 +15,12 @@ export class ExperienciaComponent implements OnInit {
     this.datosPortfolio.obtenerDatos().subscribe(data=>{
                   this.experienciaLista=data.experiencia;
     })
+  }
+
+  deleteExp(item:any){
+    this.datosPortfolio.deleteItem(item).subscribe(()=>(
+      this.experienciaLista = this.experienciaLista.filter( (t: { id: number | undefined; }) => t.id !== item.id)
+    ))
   }
 
 }

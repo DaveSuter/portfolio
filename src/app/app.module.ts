@@ -12,6 +12,9 @@ import { AppRoutingModule } from './app-routing.module.ts/app-routing.module.ts.
 import {HttpClientModule} from '@angular/common/http';
 import { HeaderEditComponent } from './componentes/header-edit/header-edit.component';
 import { ExperienciaEditComponent } from './componentes/experiencia-edit/experiencia-edit.component';
+import { ButtomAddComponent } from './componentes/buttom-add/buttom-add.component';
+import { ButtomEditComponent } from './componentes/buttom-edit/buttom-edit.component';
+import { ButtomDelComponent } from './componentes/buttom-del/buttom-del.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +26,10 @@ import { ExperienciaEditComponent } from './componentes/experiencia-edit/experie
     SkillsComponent,
     ProyectosComponent,
     HeaderEditComponent,
-    ExperienciaEditComponent
+    ExperienciaEditComponent,
+    ButtomAddComponent,
+    ButtomEditComponent,
+    ButtomDelComponent
   ],
   imports: [
     BrowserModule,
